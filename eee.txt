@@ -4,10 +4,10 @@ end
 
 if not syn_checkcaller and not PROTOSMASHER_LOADED then error'Unsupported exploit.' end
 
-if cross_settings then
-	myRoles = cross_settings.myRoles
-	myColor = cross_settings.myColor
-	WS_URL = cross_settings.WS_URL
+if	_G.cross_settings then
+	myRoles = _G.cross_settings.myRoles
+	myColor = _G.cross_settings.myColor
+	WS_URL = _G.cross_settings.WS_URL
 end
 
 if not WS_URL then error'Set the required global variables.' end
