@@ -1,9 +1,3 @@
---[[ ~ Credits ~
-	Main Script: Aim
-	Colors & Roles: 7n7o
-	Chat hook: Riptxde
---]]
-
 if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
@@ -191,7 +185,7 @@ local HookChat = function(Bar)
 end
 
 HookChat(CBar); local BindHook = Instance.new('BindableEvent')
-
+local a1a2a3 = Instance.new("BoolValue",CBar)
 
 local MT = getrawmetatable(game); local NC = MT.__namecall; setreadonly(MT, false)
 
